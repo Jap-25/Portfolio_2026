@@ -1,0 +1,22 @@
+# Carpeta que NO quiero subir
+Portfolio_react/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# Builds o temporales
+dist/
+build/
+*.log
+
+# Entorno
+.env
