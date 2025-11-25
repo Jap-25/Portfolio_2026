@@ -175,7 +175,7 @@ header .container {
   display: flex;
   align-items: center;
   padding-top: var(--header-height);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/hero_bg.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/hero_bg_v1.png');
   background-size: 100% auto;
   /* Fit width, auto height */
   background-position: center top;
