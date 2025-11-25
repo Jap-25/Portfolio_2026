@@ -301,13 +301,59 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .hero {
+    background-position: center center;
+    background-size: cover;
+    padding-top: 100px;
+    /* More space for header */
+  }
+
   .hero h1 {
     font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+    padding: 0 1rem;
   }
 
   .nav-links {
     display: none;
     /* Mobile menu to be implemented */
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    width: 100%;
+    /* Full width buttons on mobile */
+    margin-bottom: 0.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 2rem;
+  }
+
+  .section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .timeline::after {
+    left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .timeline-item::after {
+    left: 2px;
   }
 }
 
